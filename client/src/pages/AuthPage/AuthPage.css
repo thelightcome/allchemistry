@@ -1,0 +1,129 @@
+.form-wrap {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    width: 40%;
+    min-width: 200px;
+
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.form-wrap h2 {
+    margin: 0;
+    margin-bottom: 21px;
+
+    font-size: 1.1rem;
+
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+.form-wrap form {
+    width: 100%;
+}
+.form-group {
+    position: relative;
+
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+.form-group input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .8);
+    outline: none;
+}
+.form-group input.valid {
+    border-bottom: 1px solid rgba(69, 173, 5, .8);
+}
+.form-group input.error {
+    border-bottom: 1px solid rgba(247, 52, 1, .8);
+}
+.form-group input:focus {
+    border-bottom: 1px solid #6b6b6b;
+}
+.form-group input,
+.form-group label {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px 0 8px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    font-size: .8rem;
+    line-height: 30px;
+
+    vertical-align: middle;
+
+    color: rgba(0, 0, 0, .8);
+    background: transparent;
+}
+.form-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+}
+.form-group input.active ~ label,
+.form-group input:focus ~ label {
+    top: -24px;
+
+    font-size: .7rem;
+}
+.change-pass-btn {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+
+    font-size: .65em;
+
+    cursor: pointer;
+
+    color: #3d84fb;
+}
+.change-pass-btn:hover {
+    color: #25509a;
+}
+.form-option {
+    font-size: .7em;
+
+    text-align: justify;
+}
+.form-option .valid {
+    color: rgba(69, 173, 5, .8);
+}
+.form-option .error {
+    color: rgba(247, 52, 1, .8);
+}
+.form-wrap button {
+    display: block;
+    padding: 8px 22px;
+    margin: 0 auto;
+
+    font-size: .7em;
+
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, .8);
+    border: 1px solid transparent;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    outline: none;
+    background: #45ad05;
+}
+.form-wrap button:hover,
+.form-wrap button:focus {
+    border: 1px solid #020202;
+    -webkit-box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, .3);
+            box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, .3);
+}

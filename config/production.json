@@ -1,0 +1,7 @@
+{
+	"PORT": 5000,
+	"BD_URL": "mongodb+srv://nurik:951206350660TheLightCome@cluster0.wa3zo.gcp.mongodb.net/allchemistry?retryWrites=true&w=majority",
+	"JWT_SECRET": "All is empty",
+	"gmail": "alchemisttable19@gmail.com",
+	"gmailpassword": "87083416054nur"
+}

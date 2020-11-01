@@ -1,0 +1,19 @@
+.calc {
+	margin: 0 auto; 
+}
+.calc div {
+	text-align: center;
+}
+.calc span {
+	display: inline-block;
+	padding: 3px 12px;
+	font-style: 0.8rem;
+	cursor: pointer;
+	transition: 0.3s;
+	background: #fff;
+	text-align: center;
+	transition: 0.3s;
+}
+.calc span:hover {
+	background: #c0c0c0;
+}

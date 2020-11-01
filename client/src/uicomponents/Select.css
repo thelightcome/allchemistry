@@ -1,0 +1,46 @@
+.select {
+    position: relative;
+
+    cursor: pointer;
+}
+.select span {
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    text-align: center;
+
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.select span i {
+    margin-left: 5px;
+}
+.select span:hover {
+    -webkit-box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .4);
+            box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .4);
+}
+.items {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 15;
+
+    display: none;
+    min-width: 100%;
+
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.select.active .items {
+    display: block;
+}

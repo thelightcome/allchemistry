@@ -1,0 +1,28 @@
+.nav {
+	margin-top: 15px;
+	display: flex;
+	padding: 0 35px;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+.nav-link {
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	color: #E0E0E0;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.nav-link.active,
+.nav-link:hover {
+	color: #c0c0c0;
+}
+.main-nav-link {
+	font-size: 1rem;
+}
+.un-nav-link {
+	font-size: 0.8rem;
+}
+.back-nav-link {
+	font-size: 0.7rem;
+}

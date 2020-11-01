@@ -1,0 +1,21 @@
+.boards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.boards div {
+    display: flex;
+    padding-left: 5px;
+    font-size: .6rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.boards span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}

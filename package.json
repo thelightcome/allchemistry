@@ -1,0 +1,31 @@
+{
+  "name": "alchemic-table",
+  "version": "1.0.0",
+  "description": "table to alchemic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "client:install": "npm run install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \" npm run server \" \" npm run client \""
+  },
+  "author": "The Light Come <nurikserikbay1995@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "nodemailer": "^6.4.14"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.5"
+  }
+}

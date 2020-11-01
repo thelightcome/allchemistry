@@ -1,0 +1,42 @@
+.s {
+    background: rgba(208, 255, 0) !important;
+}
+.p {
+    background: rgba(107, 122, 255) !important;
+}
+.d {
+    background: rgba(85, 255, 47) !important;
+}
+.f {
+    background: rgba(255, 142, 176) !important;
+}
+.alkali-metals {
+    background: rgba(255, 152, 1) !important;
+}
+.alkaline-earth-metals {
+    background: rgba(255, 194, 7) !important;
+}
+.transition-metals {
+    background: rgba(198, 137, 137) !important;
+}
+.post-transition-metals {
+    background: rgba(144, 164, 174) !important;
+}
+.semimetals {
+    background: rgba(77, 182, 172) !important;
+}
+.non-metals {
+    background: rgba(139, 195, 74) !important;
+}
+.halogens {
+    background: rgba(38, 198, 238) !important;
+}
+.inert-gases {
+    background: rgba(3, 169, 244) !important;
+}
+.lanthanides {
+    background: rgba(246, 153, 136) !important;
+}
+.actinides {
+    background: rgba(179, 157, 219) !important;
+}

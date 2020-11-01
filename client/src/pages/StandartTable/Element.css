@@ -1,0 +1,61 @@
+.element {
+    display: flex;
+    width: 97%;
+    height: 97%;
+    padding: 5px 3px;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: relative;
+
+    font-size: .8em;
+
+    color: rgba(0, 0, 0, .8);
+    cursor: pointer;
+
+    justify-content: space-around;
+}
+.element:hover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+    z-index: 10;
+    border: 1px solid #020202;
+    min-width: 60px;
+    min-height: 60px;
+    width: auto;
+    height: auto;
+}
+tr td:last-child .element:hover {
+    left: 20%;
+}
+tr:last-child .element:hover {
+    top: 20%;
+}
+.element p {
+    display: flex;
+    padding: 0 2px;
+    margin: 0;
+
+    text-align: center;
+
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.element span {
+    display: block;
+    overflow: hidden;
+
+    font-size: .6rem;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.element:hover span {
+    white-space: normal;
+    text-overflow: none;
+}
+.element .symbol {
+    font-size: 1em;
+    font-weight: bold;
+}

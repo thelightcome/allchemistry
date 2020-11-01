@@ -1,0 +1,19 @@
+.line-table-show {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.line-table-show h1 {
+    margin: 0;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+.line-table-show img {
+    float: left;
+    width: 100%;
+    max-width: 450px;
+    max-height: 250px;
+    height: auto;
+    margin-right: 25px;
+}

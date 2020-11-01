@@ -1,0 +1,7 @@
+{
+	"PORT": 5000,
+	"BD_URL": "mongodb://localhost/periodic",
+	"JWT_SECRET": "All is empty",
+	"gmail": "alchemisttable19@gmail.com",
+	"gmailpassword": "87083416054nur"
+}
