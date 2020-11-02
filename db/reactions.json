@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5f957ed918a3cd27c4633cae"},"reagents":[{"count":"2","reagent":"H2"},{"count":"","reagent":"O2"}],"products":[{"count":"2","reagent":"H2O"}],"direction":"equal","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5f958169eb106a318ce9638f"},"reagents":[{"count":"","reagent":"CaCO3"},{"count":"","reagent":"H2SO4"}],"products":[{"count":"","reagent":"CaSO4"},{"count":"","reagent":"H2O"},{"count":"","reagent":"CO2"}],"direction":"equal","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5f9581cc47e02a32149b2c9f"},"reagents":[{"count":"","reagent":"C"},{"count":"","reagent":"O2"}],"products":[{"count":"","reagent":"CO2"}],"direction":"equal","__v":{"$numberInt":"0"}}
