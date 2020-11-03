@@ -24,7 +24,7 @@ mongoose.connect(config.get('BD_URL'), {
 	useCreateIndex: true
 }).then((result) => {
 	console.log('Database connected')
-	app.listen(PORT, () => {console.log(`App has been started on port: ${PORT}`)})
+	app.listen(process.env.PORT || PORT, () => {console.log(`App has been started on port: ${PORT}`)})
 }).catch((err) => {
 	console.log('Database not connected: ', err)
 	process.exit(1)
