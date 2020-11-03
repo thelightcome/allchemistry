@@ -16,7 +16,7 @@ if (process.env.NODE_ENV == 'production') {
 	})
 }
 
-const PORT = config.get('PORT') || 5000
+const PORT = process.env.PORT || config.get('PORT') || 5000
 
 mongoose.connect(config.get('BD_URL'), {
 	useNewUrlParser: true,
@@ -24,7 +24,7 @@ mongoose.connect(config.get('BD_URL'), {
 	useCreateIndex: true
 }).then((result) => {
 	console.log('Database connected')
-	app.listen(process.env.PORT || PORT, () => {console.log(`App has been started on port: ${PORT}`)})
+	app.listen(PORT, () => {console.log(`App has been started on port: ${PORT}`)})
 }).catch((err) => {
 	console.log('Database not connected: ', err)
 	process.exit(1)
