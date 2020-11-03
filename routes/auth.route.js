@@ -45,7 +45,7 @@ router.post('/register',
 			{expiresIn: '1h'}
 		)
 
-		sendMail(email, 'Подтверждение электронного адреса на сайте Alchemist table', `Пожалуйста, перейдите по указанной ссылке (ссылка активно только в течение часа) для подтверждения электронного адреса: <a href='http://localhost:3000/auth/verify?id=${token}'>http://${req.get('host')}</a>`)
+		sendMail(email, 'Подтверждение электронного адреса на сайте Alchemist table', `Пожалуйста, перейдите по указанной ссылке (ссылка активно только в течение часа) для подтверждения электронного адреса: <a href='http://allchemistry.herokuapp.com/auth/verify?id=${token}'>http://${req.get('host')}</a>`)
 		res.status(201).json({emailVerify: user.emailVerify, name: user.name, token, userId: user.id})
 	} catch (e) {
 		res.status(500).json({message: 'Error 404'})
